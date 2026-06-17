@@ -12,6 +12,9 @@ profile:
     <p>Department of Statistics</p>
     <p>Faculty of Science</p>
     <p>Chiang Mai University</p>
+    <br>
+    <p><b>I am currently a PhD student in Applied Statistics at Chiang Mai University, Thailand.</b></p>
+    <p><b>My research focuses on Causal Inference, Statistical Learning.</b></p>
 
 selected_papers: true
 social: true
@@ -24,6 +27,3 @@ announcements:
 latest_posts:
   enabled: true
 ---
-
-<b>I am currently a PhD student in Applied Statistics at Chiang Mai University, Thailand.</b>
-<b>My research focuses on Causal Inference, Statistical Learning.</b>
