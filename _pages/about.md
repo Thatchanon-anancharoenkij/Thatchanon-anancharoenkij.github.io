@@ -44,7 +44,7 @@ permalink: /
   <h1><b>Thatchanon</b> Anancharoenkij</h1>
   <p style="font-size: 0.95rem; color: #666; margin-bottom: 1.5rem; font-weight: 400;">PhD Student in Applied Statistics | Researcher in Causal Inference and Statistical Learning Theory</p>
 
-  I am a PhD student in applied statistics at Chiang Mai University. My research focuses on Causal inference and statistical learning theory. I am currently focusing on theoretical causal inference. I do not limit my scope to pure theory, but I am deeply interested in applying these causal frameworks across various scientific fields.
+  I am a PhD student in applied statistics at Chiang Mai University. My research focuses on Causal inference and Statistical learning theory. I am currently focusing on theoretical causal inference. I do not limit my scope to pure theory, but I am deeply interested in applying these causal frameworks across various scientific fields.
 
   <h2>Education</h2>
 
