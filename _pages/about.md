@@ -67,7 +67,7 @@ permalink: /
       padding-right: 40px;
     }
     .custom-text-col {
-      margin-left: 150px;
+      margin-left: 90px;
     }
   }
 </style>
