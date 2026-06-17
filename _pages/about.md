@@ -17,18 +17,26 @@ permalink: /
     font-weight: 300;
     line-height: 1.8;
   }
-  .profile-wrapper h1, 
+  .profile-wrapper h1 {
+    font-family: 'Lora', serif; 
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-top: 0;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* --- ตั้งค่าหัวข้อ h2 ให้มีเส้นคั่นด้านล่าง --- */
   .profile-wrapper h2 {
     font-family: 'Lora', serif; 
     font-weight: 600;
     color: #1a1a1a;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
+    border-bottom: 1px solid #e0e0e0; /* เพิ่มเส้นคั่นสีเทาอ่อน */
+    padding-bottom: 8px; /* เพิ่มระยะห่างระหว่างตัวหนังสือกับเส้นคั่น */
   }
-  .profile-wrapper h1 {
-    margin-top: 0;
-    font-size: 2.5rem;
-  }
+
   .profile-wrapper strong {
     font-weight: 500;
     color: #111;
@@ -65,12 +73,10 @@ permalink: /
 </style>
 
 <div class="row profile-wrapper">
-  <!-- ฝั่งซ้าย: รูปโปรไฟล์ เปลี่ยนมาใช้ class แทน style แบบตายตัว -->
   <div class="col-sm-4 custom-pic-col">
     <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Profile Picture" style="width: 100%; object-fit: cover; margin-bottom: 20px;">
   </div>
 
-  <!-- ฝั่งขวา: ชื่อและเนื้อหาทั้งหมด เปลี่ยนมาใช้ class แทน style แบบตายตัว -->
   <div class="col-sm-8 custom-text-col" markdown="1">
 
   <h1><b>Thatchanon</b> Anancharoenkij</h1>
@@ -92,8 +98,7 @@ permalink: /
   <h2>Education</h2>
 
   **Ph.D. Student in Applied Statistics** | 2024 – Present  
-  *Chiang Mai University, Chiang Mai, Thailand*  
-  **Dissertation:** Conditional Counterfactual Mean Embeddings: Doubly Robust Estimation and Learning Rates  
+  *Chiang Mai University, Chiang Mai, Thailand* **Dissertation:** Conditional Counterfactual Mean Embeddings: Doubly Robust Estimation and Learning Rates  
   **Advisor:** [Dr. Donlapark Ponnoprat](https://donlapark.pages.dev/)
 
   **Master of Economics (Statistics and Econometrics)** | 2017 – 2022  
