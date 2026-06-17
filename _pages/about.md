@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student in Applied Statistics @ CMU
+subtitle: PhD Student in Applied Statistics
 
 profile:
   align: right
