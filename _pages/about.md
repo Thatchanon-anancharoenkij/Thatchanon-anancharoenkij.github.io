@@ -114,10 +114,8 @@ I am a Ph.D. student in applied statistics at Chiang Mai University. My research
 
 <div style="margin-bottom: 25px;">
   <div style="font-weight: bold;">Energy Security, Economic Growth, and Poverty Reduction: Empirical Evidence from Selected ASEAN Member States</div>
-  <div style="margin-bottom: 5px;">
-  </div>
   <div>T. Anancharoenkij, W. Chinnakum</div>
-  <div style="font-style: italic;">Poverty Reduction for Inclusive Sustainable Growth in Developing Asia, 2021</div>
+  <div style="font-style: italic;">Poverty Reduction for Inclusive Sustainable Growth in Developing Asia, pp. 185-209, Springer, Cham, 2021</div>
 </div>
 
 <h2>Academic Experience</h2>
