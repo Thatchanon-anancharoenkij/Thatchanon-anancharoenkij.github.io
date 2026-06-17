@@ -19,7 +19,7 @@ announcements:
 ---
 
 I am a PhD student in applied statistics at Chiang Mai University. My research focuses on Causal inference and statistical learning theory. I am currently focusing on theoretical causal inference.
-I do not limit my scope to pure theory, but I am deeply interested in applying these causal frameworks across various scientific fields
+I do not limit my scope to pure theory, but I am deeply interested in applying these causal frameworks across various scientific fields.
 
 ## Education
 
