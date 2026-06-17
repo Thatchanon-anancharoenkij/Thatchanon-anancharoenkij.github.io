@@ -36,7 +36,7 @@ My research focuses on Causal Inference and Statistical Learning.
 **Bachelor of Economics (Statistics and Econometrics)** | 2013 – 2016  
 *Chiang Mai University, Chiang Mai, Thailand*
 
-## Selected Publications
+## Publications and Preprints
 
 **Conditional Counterfactual Mean Embeddings: Doubly Robust Estimation and Learning Rates**  
 Thatchanon Anancharoenkij and Donlapark Ponnoprat  
