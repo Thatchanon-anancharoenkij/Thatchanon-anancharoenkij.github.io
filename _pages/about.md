@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student in Applied Statistics @ CMU| Researcher in Causal Inference & Statistical Learning
+subtitle: "**PhD Student in Applied Statistics @ CMU | Researcher in Causal Inference & Statistical Learning**"
 
 profile:
   align: right
@@ -25,8 +25,5 @@ latest_posts:
   enabled: true
 ---
 
-I am currently a PhD student in Applied Statistics at Chiang Mai University, Thailand.  My research focuses on Causal Inference, Statistical Learning.
-
-I am passionate about developing advanced statistical methodologies, such as Conditional Counterfactual Mean Embeddings, and implementing them using JAX and Equinox. Currently, I serve as a Teaching Assistant for courses in Statistical Learning and Statistics for Data Science.
-
-Feel free to check out my latest research on arXiv (ID: 2602.04736) or reach out to me for academic collaborations.
+**I am currently a PhD student in Applied Statistics at Chiang Mai University, Thailand.** 
+**My research focuses on Causal Inference, Statistical Learning.**
