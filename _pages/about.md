@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student in Applied Statistics | Researcher in Causal Inference & Machine Learning
+subtitle: PhD Student in Applied Statistics | Researcher in Causal Inference & Statistical Learning
+
 profile:
   align: right
   image: prof_pic.jpg
