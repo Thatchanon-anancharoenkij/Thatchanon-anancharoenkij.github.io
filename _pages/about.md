@@ -53,7 +53,7 @@ permalink: /
 
 
   .custom-pic-col {
-    margin-left: -90;
+    margin-left: -250;
     padding-right: 15px;
   }
   .custom-text-col {
