@@ -26,7 +26,7 @@ I do not limit my scope to pure theory, but I am deeply interested in applying t
 **Ph.D. Student in Applied Statistics** | 2024 – Present  
 *Chiang Mai University, Chiang Mai, Thailand*  
 **Dissertation:** Conditional Counterfactual Mean Embeddings: Doubly Robust Estimation and Learning Rates  
-**Advisor:** Dr. Donlapark Ponnoprat
+**Advisor:** [Dr. Donlapark Ponnoprat](https://donlapark.github.io/)
 
 **Master of Economics (Statistics and Econometrics)** | 2017 – 2022  
 *Chiang Mai University, Chiang Mai, Thailand* 
