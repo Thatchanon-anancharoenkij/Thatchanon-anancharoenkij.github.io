@@ -87,6 +87,7 @@ permalink: /
     <a href="mailto:Thatchanon_ananch@cmu.ac.th"><i class="fas fa-envelope"></i> Thatchanon_ananch@cmu.ac.th</a><br>
     
     <div style="margin-top: 5px;">
+      <a href="https://github.com/Thatchanon-anancharoenkij" target="_blank"><i class="fab fa-github"></i> GitHub</a>
       <a href="https://orcid.org/0009-0005-7776-0782" target="_blank"><i class="fab fa-orcid"></i> ORCID</a>
       <a href="https://www.linkedin.com/in/thatchanon-anancharoenkij/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
       <a href="https://youtube.com/@thatchanonanancharoenkij8102" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
