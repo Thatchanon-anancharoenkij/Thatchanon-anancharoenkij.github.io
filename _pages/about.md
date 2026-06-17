@@ -3,17 +3,46 @@ layout: page
 permalink: /
 ---
 
-<div class="row">
-  <!-- ฝั่งซ้าย: รูปโปรไฟล์ (ใส่ style="margin-left: -30px; padding-right: 30px;" เพื่อดึงรูปชิดซ้าย) -->
-  <div class="col-sm-4" style="margin-left: -80px; padding-right: 30px;">
+<!-- 1. ดึงฟอนต์สวยๆ จาก Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<!-- 2. ตั้งค่าการแสดงผลฟอนต์ -->
+<style>
+  .profile-wrapper {
+    font-family: 'Poppins', sans-serif; /* ฟอนต์เนื้อหาหลัก: ทันสมัย สะอาดตา */
+    font-weight: 300;
+    line-height: 1.8;
+    color: #333;
+  }
+  .profile-wrapper h1, 
+  .profile-wrapper h2 {
+    font-family: 'Lora', serif; /* ฟอนต์หัวข้อ: ดูเป็นวิชาการ หรูหรา */
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .profile-wrapper h1 {
+    margin-top: 0;
+    font-size: 2.5rem;
+  }
+  .profile-wrapper strong {
+    font-weight: 500;
+    color: #111;
+  }
+</style>
+
+<div class="row profile-wrapper">
+  <!-- ฝั่งซ้าย: รูปโปรไฟล์ (ดึงชิดซ้าย -80px) -->
+  <div class="col-sm-4" style="margin-left: -250px; padding-right: 40px;">
     <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Profile Picture" style="width: 100%; object-fit: cover; margin-bottom: 20px;">
   </div>
 
   <!-- ฝั่งขวา: ชื่อและเนื้อหาทั้งหมด -->
   <div class="col-sm-8" markdown="1">
 
-  <h1 style="margin-top: 0;"><b>Thatchanon</b> Anancharoenkij</h1>
-  <p style="font-size: 0.95rem; color: #666; margin-bottom: 1.5rem;">PhD Student in Applied Statistics | Researcher in Causal Inference and Statistical Learning Theory</p>
+  <h1><b>Thatchanon</b> Anancharoenkij</h1>
+  <p style="font-size: 0.95rem; color: #666; margin-bottom: 1.5rem; font-weight: 400;">PhD Student in Applied Statistics | Researcher in Causal Inference and Statistical Learning Theory</p>
 
   I am a PhD student in applied statistics at Chiang Mai University. My research focuses on Causal inference and statistical learning theory. I am currently focusing on theoretical causal inference. I do not limit my scope to pure theory, but I am deeply interested in applying these causal frameworks across various scientific fields.
 
