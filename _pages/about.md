@@ -67,17 +67,17 @@ permalink: /
       padding-right: 40px;
     }
     .custom-text-col {
-      margin-left: 90px;
+      margin-left: 50px;
     }
   }
 </style>
 
 <div class="row profile-wrapper">
-  <div class="col-sm-4 custom-pic-col">
+  <div class="col-sm-3 custom-pic-col">
     <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Profile Picture" style="width: 100%; object-fit: cover; margin-bottom: 20px;">
   </div>
 
-  <div class="col-sm-8 custom-text-col" markdown="1">
+  <div class="col-sm-9 custom-text-col" markdown="1">
 
   <h1><b>Thatchanon</b> Anancharoenkij</h1>
   <p style="font-size: 0.95rem; color: #666; margin-bottom: 1rem; font-weight: 400;">PhD Student in Applied Statistics | Researcher in Causal Inference and Statistical Learning Theory</p>
