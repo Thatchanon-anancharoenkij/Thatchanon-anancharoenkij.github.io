@@ -22,27 +22,14 @@ I am currently a PhD student in Applied Statistics at Chiang Mai University.
 
 My research focuses on Causal Inference and Statistical Learning.
 
-{% if site.news != empty %}
-  {%- assign news_size = site.news | size -%}
-  <div class="news">
-    <h2>News</h2>
-    {% if news_size != 0 %}
-      {% for item in site.news limit: 5 %}
-        <div class="row">
-          <div class="col-sm-2">
-            <span class="badge">{{ item.date | date: "%b %-d, %Y" }}</span>
-          </div>
-          <div class="col-sm-8">
-            {% if item.inline %}
-              {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-            {% else %}
-              <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-            {% endif %}
-          </div>
-        </div>
-      {% endfor %}
-    {% else %}
-      <p>No news so far...</p>
-    {% endif %}
-  </div>
-{% endif %}
+## Education
+
+**Ph.D. Student in Applied Statistics** | 2024 – Present  
+*Chiang Mai University, Chiang Mai, Thailand* **Dissertation:** Conditional Counterfactual Mean Embeddings: Doubly Robust Estimation and Learning Rates  
+**Advisor:** Dr. Donlapark Ponnoprat
+
+**Master of Economics (Statistics and Econometrics)** | 2017 – 2022  
+*Chiang Mai University, Chiang Mai, Thailand* **Specialization:** Machine Learning and Causal Inference
+
+**Bachelor of Economics (Statistics and Econometrics)** | 2013 – 2016  
+*Chiang Mai University, Chiang Mai, Thailand*
