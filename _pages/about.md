@@ -113,7 +113,7 @@ permalink: /
 
   **Conditional Counterfactual Mean Embeddings: Doubly Robust Estimation and Learning Rates** Thatchanon Anancharoenkij and Donlapark Ponnoprat  
   *arXiv preprint arXiv:2602.04736* (2026)  
-  [arXiv](https://arxiv.org/abs/2602.04736) | [Code](https://github.com/Thatchanon-anancharoenkij/Conditional-Counterfactual-Mean-Embeddings)
+  [arXiv](https://arxiv.org/abs/2602.04736) | [Code](https://github.com/donlap/Conditional-Counterfactual-Mean-Embeddings)
 
   **Energy Security, Economic Growth, and Poverty Reduction: Empirical Evidence from Selected ASEAN Member States** Thatchanon Anancharoenkij and Warattaya Chinnakum  
   *Poverty Reduction for Inclusive Sustainable Growth in Developing Asia*, pp. 185-209. Springer, Cham (2021)
