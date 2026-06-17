@@ -18,14 +18,14 @@ announcements:
   limit: 5
 ---
 
-I am currently a PhD student in Applied Statistics at Chiang Mai University.
-
-My research focuses on Causal Inference and Statistical Learning.
+I am a PhD student in applied statistics at Chiang Mai University. My research focuses on Causal inference and statistical learning theory. I am currently focusing on theoretical causal inference.
+I do not limit my scope to pure theory, but I am deeply interested in applying these causal frameworks across various scientific fields
 
 ## Education
 
 **Ph.D. Student in Applied Statistics** | 2024 – Present  
-*Chiang Mai University, Chiang Mai, Thailand*  **Dissertation:** Conditional Counterfactual Mean Embeddings: Doubly Robust Estimation and Learning Rates  
+*Chiang Mai University, Chiang Mai, Thailand*  
+**Dissertation:** Conditional Counterfactual Mean Embeddings: Doubly Robust Estimation and Learning Rates  
 **Advisor:** Dr. Donlapark Ponnoprat
 
 **Master of Economics (Statistics and Econometrics)** | 2017 – 2022  
