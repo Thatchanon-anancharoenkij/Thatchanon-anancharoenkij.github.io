@@ -4,12 +4,12 @@ permalink: /
 ---
 
 <div class="row">
-  <!-- คอลัมน์ซ้าย: สำหรับใส่รูปภาพ -->
+  <!-- ฝั่งซ้าย: รูปโปรไฟล์ -->
   <div class="col-sm-4">
-    <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Profile Picture" style="width: 100%; object-fit: cover;">
+    <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Profile Picture" style="width: 100%; object-fit: cover; margin-bottom: 20px;">
   </div>
 
-  <!-- คอลัมน์ขวา: สำหรับใส่ชื่อและเนื้อหาทั้งหมด -->
+  <!-- ฝั่งขวา: ชื่อและเนื้อหาทั้งหมด -->
   <div class="col-sm-8" markdown="1">
 
   <h1 style="margin-top: 0;"><b>Thatchanon</b> Anancharoenkij</h1>
@@ -17,7 +17,7 @@ permalink: /
 
   I am a PhD student in applied statistics at Chiang Mai University. My research focuses on Causal inference and statistical learning theory. I am currently focusing on theoretical causal inference. I do not limit my scope to pure theory, but I am deeply interested in applying these causal frameworks across various scientific fields.
 
-  ## Education
+  <h2>Education</h2>
 
   **Ph.D. Student in Applied Statistics** | 2024 – Present  
   *Chiang Mai University, Chiang Mai, Thailand*  
@@ -31,7 +31,7 @@ permalink: /
   **Bachelor of Economics (Statistics and Econometrics)** | 2013 – 2016  
   *Chiang Mai University, Chiang Mai, Thailand*
 
-  ## Publications and Preprints
+  <h2>Publications and Preprints</h2>
 
   **Conditional Counterfactual Mean Embeddings: Doubly Robust Estimation and Learning Rates**  
   Thatchanon Anancharoenkij and Donlapark Ponnoprat  
@@ -42,14 +42,14 @@ permalink: /
   Thatchanon Anancharoenkij and Warattaya Chinnakum  
   *Poverty Reduction for Inclusive Sustainable Growth in Developing Asia*, pp. 185-209. Springer, Cham (2021)
 
-  ## Academic Experience
+  <h2>Academic Experience</h2>
 
   **Chiang Mai University** | 2024 – Present  
   *Graduate Teaching Assistant*  
   **Graduate Courses:** Statistical Theory 1, Statistics for Data Science  
   **Undergraduate Courses:** Statistical Learning for Data Science 1 & 2, Optimization for Statistical Learning
 
-  ## Awards & Scholarships
+  <h2>Awards & Scholarships</h2>
 
   **Graduate Teaching and Research Assistantship** | 2024 – Present  
   *Chiang Mai University, Thailand*
