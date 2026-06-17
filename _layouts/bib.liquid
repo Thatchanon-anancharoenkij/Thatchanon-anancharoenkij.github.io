@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="col-sm-12">
+    {% if entry.title %}
+      <div class="title" style="font-weight: bold; margin-bottom: 2px;">{{entry.title}}</div>
+    {% endif %}
+    
+    <div class="links" style="margin-bottom: 2px;">
+      {% if entry.html %}<a href="{{entry.html}}">[abstract]</a>{% endif %}
+      {% if entry.arxiv %}<a href="https://arxiv.org/abs/{{entry.arxiv}}">[arxiv]</a>{% endif %}
+    </div>
+
+    <div class="author" style="margin-bottom: 2px;">
+      {{entry.author}}
+    </div>
+
+    <div class="periodical" style="color: #555;">
+      {{entry.journal}} {{entry.year}}
+    </div>
+  </div>
+</div>
