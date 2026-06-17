@@ -6,7 +6,6 @@ permalink: /
 <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
 <style>
-
   body {
     background-color: #ffffff !important;
     color: #333333 !important; 
@@ -26,7 +25,6 @@ permalink: /
     margin-bottom: 1rem;
   }
   
-
   .profile-wrapper h2 {
     font-family: 'Lora', serif; 
     font-weight: 600;
@@ -50,27 +48,18 @@ permalink: /
   .contact-links a:hover {
     color: #1a1a1a;
   }
-
-
-  .custom-pic-col {
-    margin-left: -90px;
-    padding-right: 15px;
-  }
-  .custom-text-col {
-    margin-left: 0;
-  }
-
 </style>
 
-<div class="col-sm-3 custom-pic-col">
-  <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" 
-       class="img-fluid rounded z-depth-1" 
-       alt="Profile Picture" 
-       style="width: 100%; display: block; position: relative; left: -50px;">
-</div>
+<!-- เลย์เอาต์แบบ Flexbox ที่ไม่มีทางแตก -->
+<div class="profile-wrapper" style="display: flex; align-items: flex-start; margin-left: -50px;">
+  
+  <!-- 1. คอลัมน์รูปภาพ -->
+  <div style="width: 250px; flex-shrink: 0; margin-right: 40px;">
+    <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Profile Picture" style="width: 100%; display: block;">
+  </div>
 
-  <div class="col-sm-9 custom-text-col" markdown="1">
-
+  <!-- 2. คอลัมน์เนื้อหา -->
+  <div style="flex-grow: 1;" markdown="1">
   <h1><b>Thatchanon</b> Anancharoenkij</h1>
   <p style="font-size: 0.95rem; color: #666; margin-bottom: 1rem; font-weight: 400;">Ph.D. Student in Applied Statistics | Researcher in Causal Inference and Statistical Learning Theory</p>
 
