@@ -25,7 +25,7 @@ latest_posts:
   enabled: true
 ---
 
-I am Thatchanon Anancharoenkij, a PhD student in Applied Statistics at the Department of Statistics, Chiang Mai University. My research focuses on Causal Inference, Statistical Learning.
+I am currently a PhD student in Applied Statistics at Chiang Mai University, Thailand.  My research focuses on Causal Inference, Statistical Learning.
 
 I am passionate about developing advanced statistical methodologies, such as Conditional Counterfactual Mean Embeddings, and implementing them using JAX and Equinox. Currently, I serve as a Teaching Assistant for courses in Statistical Learning and Statistics for Data Science.
 
