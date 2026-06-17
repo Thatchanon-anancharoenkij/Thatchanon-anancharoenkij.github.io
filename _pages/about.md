@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <b>PhD Student in Applied Statistics @ CMU | Researcher in Causal Inference & Statistical Learning</b>
+subtitle: "<b>PhD Student in Applied Statistics @ CMU | Researcher in Causal Inference & Statistical Learning</b>"
 
 profile:
   align: right
