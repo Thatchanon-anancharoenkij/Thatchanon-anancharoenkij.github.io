@@ -100,18 +100,30 @@ I am a Ph.D. student in applied statistics at Chiang Mai University. My research
   **Bachelor of Economics (Statistics and Econometrics)** | 2013 – 2016  
   *Chiang Mai University, Chiang Mai, Thailand*
 
-  <h2>Publications and Preprints</h2>
+ <h2>Publications and Preprints</h2>
 
-  **Conditional Counterfactual Mean Embeddings: Doubly Robust Estimation and Learning Rates**  
-  Thatchanon Anancharoenkij and Donlapark Ponnoprat  
-  *arXiv preprint arXiv:2602.04736* (2026)  
-  [arXiv](https://arxiv.org/abs/2602.04736) | [Code](https://github.com/donlap/Conditional-Counterfactual-Mean-Embeddings)
+<div style="margin-bottom: 25px;">
+  <div style="font-weight: bold;">Conditional Counterfactual Mean Embeddings: Doubly Robust Estimation and Learning Rates</div>
+  <div style="margin-bottom: 5px;">
+    <a href="https://arxiv.org/abs/2602.04736">[abstract]</a> 
+    <a href="https://arxiv.org/abs/2602.04736">[arxiv]</a> 
+    <a href="https://github.com/donlap/Conditional-Counterfactual-Mean-Embeddings">[code]</a>
+  </div>
+  <div>T. Anancharoenkij, D. Ponnoprat</div>
+  <div style="font-style: italic;">arXiv, 2026</div>
+</div>
 
-  **Energy Security, Economic Growth, and Poverty Reduction: Empirical Evidence from Selected ASEAN Member States**  
-  Thatchanon Anancharoenkij and Warattaya Chinnakum  
-  *Poverty Reduction for Inclusive Sustainable Growth in Developing Asia*, pp. 185-209. Springer, Cham (2021)
+<div style="margin-bottom: 25px;">
+  <div style="font-weight: bold;">Energy Security, Economic Growth, and Poverty Reduction: Empirical Evidence from Selected ASEAN Member States</div>
+  <div style="margin-bottom: 5px;">
+    <a href="#">[abstract]</a> 
+    <a href="#">[paper]</a>
+  </div>
+  <div>T. Anancharoenkij, W. Chinnakum</div>
+  <div style="font-style: italic;">Poverty Reduction for Inclusive Sustainable Growth in Developing Asia, 2021</div>
+</div>
 
-  <h2>Academic Experience</h2>
+<h2>Academic Experience</h2>
 
   **Chiang Mai University** | 2024 – Present  
   *Graduate Teaching Assistant*  
