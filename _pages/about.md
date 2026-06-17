@@ -6,6 +6,12 @@ permalink: /
 <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
 <style>
+  /* บังคับให้พื้นหลังของเว็บไซต์เป็นสีขาวล้วนเสมอ */
+  body {
+    background-color: #ffffff !important;
+    color: #333333 !important; /* บังคับสีตัวอักษรพื้นฐานให้เป็นสีเข้ม ป้องกันข้อความกลืนกับพื้นหลัง */
+  }
+
   .profile-wrapper {
     font-family: 'Poppins', sans-serif; /* ฟอนต์เนื้อหาหลัก: ทันสมัย สะอาดตา */
     font-weight: 300;
@@ -71,7 +77,8 @@ permalink: /
   **Advisor:** [Dr. Donlapark Ponnoprat](https://donlapark.pages.dev/)
 
   **Master of Economics (Statistics and Econometrics)** | 2017 – 2022  
-  *Chiang Mai University, Chiang Mai, Thailand* **Specialization:** Machine Learning and Causal Inference
+  *Chiang Mai University, Chiang Mai, Thailand*  
+  **Specialization:** Machine Learning and Causal Inference
 
   **Bachelor of Economics (Statistics and Econometrics)** | 2013 – 2016  
   *Chiang Mai University, Chiang Mai, Thailand*
