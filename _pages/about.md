@@ -36,12 +36,6 @@ My research focuses on Causal Inference and Statistical Learning.
 **Bachelor of Economics (Statistics and Econometrics)** | 2013 – 2016  
 *Chiang Mai University, Chiang Mai, Thailand*
 
-## Publications & Preprints
-
-Thatchanon Anancharoenkij, Donlapark Ponnoprat. "Conditional Counterfactual Mean Embeddings: Doubly Robust Estimation and Learning Rates." *arXiv preprint arXiv:2602.04736* (2026). [[Paper](https://arxiv.org/abs/2602.04736)] [[Code](https://github.com/Thatchanon-anancharoenkij/Conditional-Counterfactual-Mean-Embeddings)]
-
-Thatchanon Anancharoenkij, Warattaya Chinnakum. "Energy Security, Economic Growth, and Poverty Reduction: Empirical Evidence from Selected ASEAN Member States." In *Poverty Reduction for Inclusive Sustainable Growth in Developing Asia*, pp. 185-209. Springer, Cham (2021).
-
 ## Academic Experience
 
 **Chiang Mai University** | 2024 – Present  
