@@ -70,6 +70,12 @@ permalink: /
       margin-left: 50px;
     }
   }
+  .profile-wrapper strong {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+  }
 </style>
 
 <div class="row profile-wrapper">
@@ -80,7 +86,7 @@ permalink: /
   <div class="col-sm-9 custom-text-col" markdown="1">
 
   <h1><b>Thatchanon</b> Anancharoenkij</h1>
-  <p style="font-size: 0.95rem; color: #666; margin-bottom: 1rem; font-weight: 400;">PhD Student in Applied Statistics | Researcher in Causal Inference and Statistical Learning Theory</p>
+  <p style="font-size: 0.95rem; color: #666; margin-bottom: 1rem; font-weight: 400;">Ph.D. Student in Applied Statistics | Researcher in Causal Inference and Statistical Learning Theory</p>
 
   <div class="contact-links" style="font-size: 0.9rem; margin-bottom: 1.5rem;">
     <a href="mailto:Thatchanon.anan@gmail.com"><i class="fas fa-envelope"></i> Thatchanon.anan@gmail.com</a>
@@ -94,7 +100,7 @@ permalink: /
     </div>
   </div>
 
-I am a PhD student in applied statistics at Chiang Mai University. My research focuses on causal inference and statistical learning theory. I am currently focusing on theoretical causal inference. I do not limit my scope to pure theory, but I am deeply interested in applying these causal frameworks across various scientific fields.
+I am a Ph.D. student in applied statistics at Chiang Mai University. My research focuses on causal inference and statistical learning theory. I am currently focusing on theoretical causal inference. I do not limit my scope to pure theory, but I am deeply interested in applying these causal frameworks across various scientific fields.
 
   <h2>Education</h2>
 
