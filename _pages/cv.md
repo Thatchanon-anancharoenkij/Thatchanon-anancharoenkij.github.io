@@ -14,6 +14,6 @@ nav_order: 1
 
 <div style="width: 100%; height: 850px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden;">
   <iframe src="{{ '/assets/pdf/cv.pdf' | relative_url }}" width="100%" height="100%" style="border: none;">
-    <p>เบราว์เซอร์ของคุณไม่รองรับการแสดงไฟล์ PDF คุณสามารถ <a href="{{ '/assets/pdf/cv.pdf' | relative_url }}">คลิกที่นี่เพื่อดาวน์โหลดไฟล์</a> แทนได้ครับ</p>
+    <p>Your browser does not support PDF viewing. You can <a href="{{ '/assets/pdf/cv.pdf' | relative_url }}">click here to download the file</a> instead.</p>
   </iframe>
 </div>
