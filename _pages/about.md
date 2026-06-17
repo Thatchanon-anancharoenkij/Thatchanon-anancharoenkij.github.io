@@ -62,8 +62,8 @@ permalink: /
   <p style="font-size: 0.95rem; color: #666; margin-bottom: 1rem; font-weight: 400;">Ph.D. Student in Applied Statistics | Researcher in Causal Inference and Statistical Learning Theory</p>
 
   <div class="contact-links" style="font-size: 0.9rem; margin-bottom: 1.5rem;">
-    <a href="mailto:Thatchanon.anan@gmail.com"><i class="fas fa-envelope"></i> Thatchanon.anan@gmail.com</a>
-    <a href="mailto:Thatchanon_ananch@cmu.ac.th"><i class="fas fa-envelope"></i> Thatchanon_ananch@cmu.ac.th</a><br>
+    <a href="mailto:Thatchanon.anan@gmail.com"><i class="fas fa-envelope"></i> thatchanon.anan@gmail.com</a>
+    <a href="mailto:Thatchanon_ananch@cmu.ac.th"><i class="fas fa-envelope"></i> thatchanon_ananch@cmu.ac.th</a><br>
     
     <div style="margin-top: 5px;">
       <a href="https://github.com/Thatchanon-anancharoenkij" target="_blank"><i class="fab fa-github"></i> GitHub</a>
