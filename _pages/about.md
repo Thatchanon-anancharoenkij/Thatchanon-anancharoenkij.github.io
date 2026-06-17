@@ -105,7 +105,6 @@ I am a Ph.D. student in applied statistics at Chiang Mai University. My research
 <div style="margin-bottom: 25px;">
   <div style="font-weight: bold;">Conditional Counterfactual Mean Embeddings: Doubly Robust Estimation and Learning Rates</div>
   <div style="margin-bottom: 5px;">
-    <a href="https://arxiv.org/abs/2602.04736">[abstract]</a> 
     <a href="https://arxiv.org/abs/2602.04736">[arxiv]</a> 
     <a href="https://github.com/donlap/Conditional-Counterfactual-Mean-Embeddings">[code]</a>
   </div>
@@ -116,8 +115,6 @@ I am a Ph.D. student in applied statistics at Chiang Mai University. My research
 <div style="margin-bottom: 25px;">
   <div style="font-weight: bold;">Energy Security, Economic Growth, and Poverty Reduction: Empirical Evidence from Selected ASEAN Member States</div>
   <div style="margin-bottom: 5px;">
-    <a href="#">[abstract]</a> 
-    <a href="#">[paper]</a>
   </div>
   <div>T. Anancharoenkij, W. Chinnakum</div>
   <div style="font-style: italic;">Poverty Reduction for Inclusive Sustainable Growth in Developing Asia, 2021</div>
