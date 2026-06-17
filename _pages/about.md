@@ -119,8 +119,9 @@ permalink: /
   <h2>Academic Experience</h2>
 
   **Chiang Mai University** | 2024 – Present  
-  *Graduate Teaching Assistant* **Graduate Courses:** Statistical Theory 1, Statistics for Data Science  
-  **Undergraduate Courses:** Statistical Learning for Data Science 1 & 2, Optimization for Statistical Learning
+  *Graduate Teaching Assistant*  
+  **Graduate Courses:** 208871: Statistical Theory 1, 229711: Statistics for Data Science  
+  **Undergraduate Courses:** 229351: Statistical Learning for Data Science 1 , 229352: Statistical Learning for Data Science 2, 208424: Optimization for Statistical Learning
 
   <h2>Awards & Scholarships</h2>
 
