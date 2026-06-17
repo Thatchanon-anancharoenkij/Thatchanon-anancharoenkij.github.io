@@ -66,7 +66,8 @@ permalink: /
   <h2>Education</h2>
 
   **Ph.D. Student in Applied Statistics** | 2024 – Present  
-  *Chiang Mai University, Chiang Mai, Thailand* **Dissertation:** Conditional Counterfactual Mean Embeddings: Doubly Robust Estimation and Learning Rates  
+  *Chiang Mai University, Chiang Mai, Thailand*  
+  **Dissertation:** Conditional Counterfactual Mean Embeddings: Doubly Robust Estimation and Learning Rates  
   **Advisor:** [Dr. Donlapark Ponnoprat](https://donlapark.pages.dev/)
 
   **Master of Economics (Statistics and Econometrics)** | 2017 – 2022  
