@@ -4,6 +4,11 @@ title: about
 permalink: /
 subtitle: PhD Student in Applied Statistics | Researcher in Causal Inference and Statistical Learning Theory
 
+profile:
+  align: right
+  image: prof_pic.jpg
+  image_circular: false
+
 selected_papers: false
 social: false
 
