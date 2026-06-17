@@ -8,9 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
-  # การลบ more_info ออกจะทำให้คำบรรยายใต้ภาพหายไป
-  
-news: true # เปิดใช้งานส่วน News
+
 selected_papers: true
 social: true
 
@@ -20,10 +18,14 @@ announcements:
   limit: 5
 ---
 
-# News
+I am currently a PhD student in Applied Statistics at Chiang Mai University.
+
+My research focuses on Causal Inference and Statistical Learning.
+
 {% if site.news != empty %}
   {%- assign news_size = site.news | size -%}
   <div class="news">
+    <h2>News</h2>
     {% if news_size != 0 %}
       {% for item in site.news limit: 5 %}
         <div class="row">
@@ -44,7 +46,3 @@ announcements:
     {% endif %}
   </div>
 {% endif %}
-
-I am currently a PhD student in Applied Statistics at Chiang Mai University.
-
-My research focuses on Causal Inference and Statistical Learning.
