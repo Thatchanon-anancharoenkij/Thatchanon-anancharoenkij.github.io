@@ -5,7 +5,7 @@ permalink: /
 
 <div class="row">
   <!-- ฝั่งซ้าย: รูปโปรไฟล์ (ใส่ style="margin-left: -30px; padding-right: 30px;" เพื่อดึงรูปชิดซ้าย) -->
-  <div class="col-sm-4" style="margin-left: -30px; padding-right: 30px;">
+  <div class="col-sm-4" style="margin-left: -80px; padding-right: 30px;">
     <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Profile Picture" style="width: 100%; object-fit: cover; margin-bottom: 20px;">
   </div>
 
