@@ -1,12 +1,15 @@
 ---
-layout: cv
-permalink: /cv/
+layout: page
 title: CV
+permalink: /cv/
 nav: true
 nav_order: 5
-cv_pdf: /assets/pdf/cv.pdf # you can also use external links here
-cv_format: rendercv # options: rendercv, jsonresume
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
 ---
+
+<div class="row">
+    <div class="col-sm-12 text-center">
+        <a href="/assets/pdf/cv.pdf" class="btn btn-primary btn-lg" target="_blank">
+            <i class="fas fa-file-pdf"></i> Download CV (PDF)
+        </a>
+    </div>
+</div>
