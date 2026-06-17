@@ -1,69 +1,61 @@
 ---
-layout: about
-title: about
+layout: page
 permalink: /
-subtitle: PhD Student in Applied Statistics | Researcher in Causal Inference and Statistical Learning Theory
-
-profile:
-  align: left
-  image: prof_pic.jpg
-  image_circular: true
-
-selected_papers: false
-social: false
-
-announcements:
-  enabled: false
-  scrollable: true
-  limit: 5
 ---
 
-I am a PhD student in applied statistics at Chiang Mai University. My research focuses on Causal inference and statistical learning theory. I am currently focusing on theoretical causal inference.
-I do not limit my scope to pure theory, but I am deeply interested in applying these causal frameworks across various scientific fields.
+<div class="row">
+  <!-- คอลัมน์ซ้าย: สำหรับใส่รูปภาพ -->
+  <div class="col-sm-4">
+    <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Profile Picture" style="width: 100%; object-fit: cover;">
+  </div>
 
-## Education
+  <!-- คอลัมน์ขวา: สำหรับใส่ชื่อและเนื้อหาทั้งหมด -->
+  <div class="col-sm-8" markdown="1">
 
-**Ph.D. Student in Applied Statistics** | 2024 – Present  
-*Chiang Mai University, Chiang Mai, Thailand*  
-**Dissertation:** Conditional Counterfactual Mean Embeddings: Doubly Robust Estimation and Learning Rates  
-**Advisor:** [Dr. Donlapark Ponnoprat](https://donlapark.github.io/)
+  <h1 style="margin-top: 0;"><b>Thatchanon</b> Anancharoenkij</h1>
+  <p style="font-size: 0.95rem; color: #666; margin-bottom: 1.5rem;">PhD Student in Applied Statistics | Researcher in Causal Inference and Statistical Learning Theory</p>
 
-**Master of Economics (Statistics and Econometrics)** | 2017 – 2022  
-*Chiang Mai University, Chiang Mai, Thailand* 
-**Specialization:** Machine Learning and Causal Inference
+  I am a PhD student in applied statistics at Chiang Mai University. My research focuses on Causal inference and statistical learning theory. I am currently focusing on theoretical causal inference. I do not limit my scope to pure theory, but I am deeply interested in applying these causal frameworks across various scientific fields.
 
-**Bachelor of Economics (Statistics and Econometrics)** | 2013 – 2016  
-*Chiang Mai University, Chiang Mai, Thailand*
+  ## Education
 
-## Publications and Preprints
+  **Ph.D. Student in Applied Statistics** | 2024 – Present  
+  *Chiang Mai University, Chiang Mai, Thailand*  
+  **Dissertation:** Conditional Counterfactual Mean Embeddings: Doubly Robust Estimation and Learning Rates  
+  **Advisor:** [Dr. Donlapark Ponnoprat](https://donlapark.github.io/)
 
-**Conditional Counterfactual Mean Embeddings: Doubly Robust Estimation and Learning Rates**  
-Thatchanon Anancharoenkij and Donlapark Ponnoprat  
-*arXiv preprint arXiv:2602.04736* (2026)  
-[arXiv](https://arxiv.org/abs/2602.04736) | [Code](https://github.com/Thatchanon-anancharoenkij/Conditional-Counterfactual-Mean-Embeddings)
+  **Master of Economics (Statistics and Econometrics)** | 2017 – 2022  
+  *Chiang Mai University, Chiang Mai, Thailand*  
+  **Specialization:** Machine Learning and Causal Inference
 
-**Energy Security, Economic Growth, and Poverty Reduction: Empirical Evidence from Selected ASEAN Member States**  
-Thatchanon Anancharoenkij and Warattaya Chinnakum  
-*Poverty Reduction for Inclusive Sustainable Growth in Developing Asia*, pp. 185-209. Springer, Cham (2021)
+  **Bachelor of Economics (Statistics and Econometrics)** | 2013 – 2016  
+  *Chiang Mai University, Chiang Mai, Thailand*
 
-## Academic Experience
+  ## Publications and Preprints
 
-**Chiang Mai University** | 2024 – Present  
-*Graduate Teaching Assistant*  
-**Graduate Courses:** Statistical Theory 1, Statistics for Data Science  
-**Undergraduate Courses:** Statistical Learning for Data Science 1 & 2, Optimization for Statistical Learning
+  **Conditional Counterfactual Mean Embeddings: Doubly Robust Estimation and Learning Rates**  
+  Thatchanon Anancharoenkij and Donlapark Ponnoprat  
+  *arXiv preprint arXiv:2602.04736* (2026)  
+  [arXiv](https://arxiv.org/abs/2602.04736) | [Code](https://github.com/Thatchanon-anancharoenkij/Conditional-Counterfactual-Mean-Embeddings)
 
-## Awards & Scholarships
+  **Energy Security, Economic Growth, and Poverty Reduction: Empirical Evidence from Selected ASEAN Member States**  
+  Thatchanon Anancharoenkij and Warattaya Chinnakum  
+  *Poverty Reduction for Inclusive Sustainable Growth in Developing Asia*, pp. 185-209. Springer, Cham (2021)
 
-**Graduate Teaching and Research Assistantship** | 2024 – Present  
-*Chiang Mai University, Thailand*
+  ## Academic Experience
 
-**Graduate Teaching and Research Assistantship** | 2017 – 2022  
-*Chiang Mai University, Thailand*
+  **Chiang Mai University** | 2024 – Present  
+  *Graduate Teaching Assistant*  
+  **Graduate Courses:** Statistical Theory 1, Statistics for Data Science  
+  **Undergraduate Courses:** Statistical Learning for Data Science 1 & 2, Optimization for Statistical Learning
 
+  ## Awards & Scholarships
 
+  **Graduate Teaching and Research Assistantship** | 2024 – Present  
+  *Chiang Mai University, Thailand*
 
+  **Graduate Teaching and Research Assistantship** | 2017 – 2022  
+  *Chiang Mai University, Thailand*
 
-
-
-
+  </div>
+</div>
