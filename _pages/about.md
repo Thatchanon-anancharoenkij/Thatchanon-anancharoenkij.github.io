@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student in Applied Statistics
+subtitle: PhD Student in Applied Statistics | Researcher in Causal Inference and Statistical Learning Theory
 
 profile:
   align: right
