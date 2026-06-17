@@ -60,22 +60,6 @@ permalink: /
     margin-left: 0;
   }
 
-
-  @media (min-width: 768px) {
-    .custom-pic-col {
-      margin-left: -250px; 
-      padding-right: 40px;
-    }
-    .custom-text-col {
-      margin-left: 50px;
-    }
-  }
-  .profile-wrapper strong {
-    display: block;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis; 
-  }
 </style>
 
 <div class="row profile-wrapper">
