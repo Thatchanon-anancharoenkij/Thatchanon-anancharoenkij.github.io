@@ -7,7 +7,7 @@ subtitle: PhD Student in Applied Statistics | Researcher in Causal Inference and
 profile:
   align: left
   image: prof_pic.jpg
-  image_circular: false
+  image_circular: true
 
 selected_papers: false
 social: false
