@@ -9,18 +9,17 @@ permalink: /
   /* บังคับให้พื้นหลังของเว็บไซต์เป็นสีขาวล้วนเสมอ */
   body {
     background-color: #ffffff !important;
-    color: #333333 !important; /* บังคับสีตัวอักษรพื้นฐานให้เป็นสีเข้ม ป้องกันข้อความกลืนกับพื้นหลัง */
+    color: #333333 !important; 
   }
 
   .profile-wrapper {
-    font-family: 'Poppins', sans-serif; /* ฟอนต์เนื้อหาหลัก: ทันสมัย สะอาดตา */
+    font-family: 'Poppins', sans-serif; 
     font-weight: 300;
     line-height: 1.8;
-    color: #333;
   }
   .profile-wrapper h1, 
   .profile-wrapper h2 {
-    font-family: 'Lora', serif; /* ฟอนต์หัวข้อ: ดูเป็นวิชาการ หรูหรา */
+    font-family: 'Lora', serif; 
     font-weight: 600;
     color: #1a1a1a;
     margin-top: 1.5rem;
@@ -34,7 +33,6 @@ permalink: /
     font-weight: 500;
     color: #111;
   }
-  /* ตั้งค่าสีลิงก์ช่องทางติดต่อเวลาเอาเมาส์ไปชี้ (Hover) */
   .contact-links a {
     color: #666;
     text-decoration: none;
@@ -44,14 +42,36 @@ permalink: /
   .contact-links a:hover {
     color: #1a1a1a;
   }
+
+  /* --- ตั้งค่าสำหรับการแสดงผลบนมือถือ (หน้าจอแคบ) ให้แสดงผลพอดีกรอบ --- */
+  .custom-pic-col {
+    margin-left: 0;
+    padding-right: 15px;
+  }
+  .custom-text-col {
+    margin-left: 0;
+  }
+
+  /* --- ตั้งค่าสำหรับการแสดงผลบนคอมพิวเตอร์ (หน้าจอกว้างกว่า 768px) --- */
+  @media (min-width: 768px) {
+    .custom-pic-col {
+      margin-left: -250px; 
+      padding-right: 40px;
+    }
+    .custom-text-col {
+      margin-left: 150px;
+    }
+  }
 </style>
 
 <div class="row profile-wrapper">
-  <div class="col-sm-4" style="margin-left: -250px; padding-right: 40px;">
+  <!-- ฝั่งซ้าย: รูปโปรไฟล์ เปลี่ยนมาใช้ class แทน style แบบตายตัว -->
+  <div class="col-sm-4 custom-pic-col">
     <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Profile Picture" style="width: 100%; object-fit: cover; margin-bottom: 20px;">
   </div>
 
-  <div class="col-sm-8" markdown="1" style="margin-left: 150px;">
+  <!-- ฝั่งขวา: ชื่อและเนื้อหาทั้งหมด เปลี่ยนมาใช้ class แทน style แบบตายตัว -->
+  <div class="col-sm-8 custom-text-col" markdown="1">
 
   <h1><b>Thatchanon</b> Anancharoenkij</h1>
   <p style="font-size: 0.95rem; color: #666; margin-bottom: 1rem; font-weight: 400;">PhD Student in Applied Statistics | Researcher in Causal Inference and Statistical Learning Theory</p>
@@ -77,8 +97,7 @@ permalink: /
   **Advisor:** [Dr. Donlapark Ponnoprat](https://donlapark.pages.dev/)
 
   **Master of Economics (Statistics and Econometrics)** | 2017 – 2022  
-  *Chiang Mai University, Chiang Mai, Thailand*  
-  **Specialization:** Machine Learning and Causal Inference
+  *Chiang Mai University, Chiang Mai, Thailand* **Specialization:** Machine Learning and Causal Inference
 
   **Bachelor of Economics (Statistics and Econometrics)** | 2013 – 2016  
   *Chiang Mai University, Chiang Mai, Thailand*
