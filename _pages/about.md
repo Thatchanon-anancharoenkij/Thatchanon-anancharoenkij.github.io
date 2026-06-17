@@ -39,7 +39,7 @@ permalink: /
   </div>
 
   <!-- ฝั่งขวา: ชื่อและเนื้อหาทั้งหมด -->
-  <div class="col-sm-8" markdown="1">
+  <div class="col-sm-8" markdown="1" style="margin-left: 90px;">
 
   <h1><b>Thatchanon</b> Anancharoenkij</h1>
   <p style="font-size: 0.95rem; color: #666; margin-bottom: 1.5rem; font-weight: 400;">PhD Student in Applied Statistics | Researcher in Causal Inference and Statistical Learning Theory</p>
