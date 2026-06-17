@@ -73,6 +73,7 @@ al_folio:
   upgrade:
     channel: stable
     auto_apply_safe_fixes: false
+    enabled: false
 
 # -----------------------------------------------------------------------------
 # RSS Feed
