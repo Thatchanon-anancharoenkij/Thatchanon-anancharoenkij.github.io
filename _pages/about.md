@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: subtitle: PhD Student in Applied Statistics | Researcher in Causal Inference & Machine Learning Address.
 
 profile:
   align: right
