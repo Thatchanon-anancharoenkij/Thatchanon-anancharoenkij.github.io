@@ -4,10 +4,9 @@ title: about
 permalink: /
 subtitle: PhD Student in Applied Statistics | Researcher in Causal Inference and Statistical Learning Theory
 
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false
+<div style="float: right; margin-left: 60px; margin-bottom: 20px;">
+  <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" alt="profile photo" style="width: 250px; border-radius: 5px;">
+</div>
 
 selected_papers: false
 social: false
