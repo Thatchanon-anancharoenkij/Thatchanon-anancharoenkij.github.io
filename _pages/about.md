@@ -10,7 +10,7 @@ profile:
   image_circular: false
 
 selected_papers: true
-social: true
+social: false
 
 announcements:
   enabled: false
@@ -25,7 +25,8 @@ My research focuses on Causal Inference and Statistical Learning.
 ## Education
 
 **Ph.D. Student in Applied Statistics** | 2024 – Present  
-*Chiang Mai University, Chiang Mai, Thailand* **Dissertation:** Conditional Counterfactual Mean Embeddings: Doubly Robust Estimation and Learning Rates  
+*Chiang Mai University, Chiang Mai, Thailand* 
+**Dissertation:** Conditional Counterfactual Mean Embeddings: Doubly Robust Estimation and Learning Rates  
 **Advisor:** Dr. Donlapark Ponnoprat
 
 **Master of Economics (Statistics and Econometrics)** | 2017 – 2022  
