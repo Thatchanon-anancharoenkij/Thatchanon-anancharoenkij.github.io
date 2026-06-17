@@ -62,10 +62,12 @@ permalink: /
 
 </style>
 
-<div class="row profile-wrapper">
-  <div class="col-sm-3 custom-pic-col">
-    <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Profile Picture" style="width: 100%; object-fit: cover; margin-bottom: 20px;">
-  </div>
+<div class="col-sm-3 custom-pic-col">
+  <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" 
+       class="img-fluid rounded z-depth-1" 
+       alt="Profile Picture" 
+       style="width: 100%; display: block; position: relative; left: -50px;">
+</div>
 
   <div class="col-sm-9 custom-text-col" markdown="1">
 
