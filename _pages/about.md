@@ -6,7 +6,7 @@ permalink: /
 <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
 <style>
-  /* บังคับให้พื้นหลังของเว็บไซต์เป็นสีขาวล้วนเสมอ */
+
   body {
     background-color: #ffffff !important;
     color: #333333 !important; 
@@ -26,15 +26,15 @@ permalink: /
     margin-bottom: 1rem;
   }
   
-  /* --- ตั้งค่าหัวข้อ h2 ให้มีเส้นคั่นด้านล่าง --- */
+
   .profile-wrapper h2 {
     font-family: 'Lora', serif; 
     font-weight: 600;
     color: #1a1a1a;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    border-bottom: 1px solid #e0e0e0; /* เพิ่มเส้นคั่นสีเทาอ่อน */
-    padding-bottom: 8px; /* เพิ่มระยะห่างระหว่างตัวหนังสือกับเส้นคั่น */
+    border-bottom: 1px solid #e0e0e0; 
+    padding-bottom: 8px; 
   }
 
   .profile-wrapper strong {
@@ -51,7 +51,7 @@ permalink: /
     color: #1a1a1a;
   }
 
-  /* --- ตั้งค่าสำหรับการแสดงผลบนมือถือ (หน้าจอแคบ) ให้แสดงผลพอดีกรอบ --- */
+
   .custom-pic-col {
     margin-left: 0;
     padding-right: 15px;
@@ -60,7 +60,7 @@ permalink: /
     margin-left: 0;
   }
 
-  /* --- ตั้งค่าสำหรับการแสดงผลบนคอมพิวเตอร์ (หน้าจอกว้างกว่า 768px) --- */
+
   @media (min-width: 768px) {
     .custom-pic-col {
       margin-left: -250px; 
