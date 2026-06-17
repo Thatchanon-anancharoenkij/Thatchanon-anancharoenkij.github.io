@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student in Applied Statistics @ CMU | Researcher in Causal Inference and Statistical Learning
+subtitle: PhD Student in Applied Statistics at CMU| Researcher in Causal Inference and Statistical Learning
 
 profile:
   align: right
