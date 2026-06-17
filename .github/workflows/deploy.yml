@@ -10,12 +10,28 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      
+      # 1. ติดตั้ง ImageMagick สำหรับจัดการรูปภาพ
+      - name: Install ImageMagick
+        run: sudo apt-get update && sudo apt-get install -y imagemagick
+        
+      # 2. ติดตั้ง Python และ Jupyter สำหรับจัดการไฟล์ Notebook
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Install Jupyter
+        run: pip install jupyter nbconvert
+        
+      # 3. ติดตั้ง Ruby และรันเว็บไซต์
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2'
           bundler-cache: true
       - name: Build with Jekyll
         run: bundle exec jekyll build
+        
+      # 4. อัปโหลดขึ้น GitHub Pages
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
