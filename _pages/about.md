@@ -3,8 +3,8 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  <b>PhD Student in Applied Statistics @ CMU | Researcher in Causal
-  Inference and Statistical Learning</b>
+  PhD Student in Applied Statistics @ CMU | Researcher in Causal Inference and
+  Statistical Learning
 
 profile:
   align: right
@@ -27,7 +27,8 @@ latest_posts:
   enabled: true
 ---
 
-<b>I am currently a PhD student in Applied Statistics at Chiang Mai University,
-Thailand.</b>
+<!-- prettier-ignore -->
+**I am currently a PhD student in Applied Statistics at Chiang Mai University, Thailand.**
 
-<b>My research focuses on Causal Inference, Statistical Learning.</b>
+<!-- prettier-ignore -->
+**My research focuses on Causal Inference, Statistical Learning.**
