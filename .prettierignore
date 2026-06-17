@@ -14,3 +14,4 @@ _data/citations.yml
 _config.yml
 .github/workflows/deploy.yml
 _pages/about.md
+_layouts/bib.liquid
