@@ -53,7 +53,7 @@ permalink: /
 <!-- เลย์เอาต์แบบ Flexbox ที่ไม่มีทางแตก -->
 <div class="profile-wrapper" style="display: flex; align-items: flex-start; margin-left: -50px;">
   
-  <div style="width: 250px; flex-shrink: 0; margin-right: 40px; position: relative; left: -250px;">
+  <div style="width: 250px; flex-shrink: 0; margin-right: 40px; position: relative; left: -90px;">
     <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Profile Picture" style="width: 100%; display: block;">
   </div>
 
