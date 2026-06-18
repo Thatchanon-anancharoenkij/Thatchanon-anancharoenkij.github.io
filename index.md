@@ -70,24 +70,16 @@ permalink: /
   </div>
 </div>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    document.querySelectorAll('.navbar-nav a').forEach(link => {
-      if (link.textContent.trim().toLowerCase() === 'cv') {
-        link.closest('li').style.display = 'block'; 
-      }
-    });
+<style>
+  .toggle-container { display: none !important; }
 
+  .navbar-nav .nav-item:has(a[href*="cv"]) {
+    display: block !important;
+  }
 
-    setTimeout(function() {
-      const searchBtn = document.querySelector('#search-toggle span.nav-link');
-      if (searchBtn) {
-        searchBtn.childNodes.forEach(node => {
-          if (node.nodeType === 3 && node.textContent.includes('ctrl k')) {
-            node.textContent = 'Search ';
-          }
-        });
-      }
-    }, 200); 
-  });
-</script>
+  #search-toggle .nav-link {
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+  }
+</style>
