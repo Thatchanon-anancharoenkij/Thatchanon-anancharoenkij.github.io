@@ -14,8 +14,7 @@ permalink: /
   .contact-links a { color: #666; text-decoration: none; margin-right: 20px; transition: color 0.2s ease-in-out; }
   .contact-links a:hover { color: #1a1a1a; }
 
-  /* ซ่อนเมนูที่ไม่ต้องการ */
-  .search-toggle, .toggle-container { display: none !important; }
+  .toggle-container { display: none !important; }
 
   /* Responsive profile layout */
   .responsive-profile-container { display: flex; flex-direction: column; align-items: center; gap: 2rem; margin-bottom: 2rem; }
@@ -70,3 +69,24 @@ permalink: /
     <p><strong>Graduate Teaching and Research Assistantship</strong> | 2017 – 2022<br><em>Chiang Mai University, Thailand</em></p>
   </div>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll('.navbar-nav a').forEach(link => {
+      if (link.textContent.trim().toLowerCase() === 'cv') {
+        link.closest('li').style.display = 'block';
+      }
+    });
+
+    setTimeout(function() {
+      const searchSpan = document.querySelector('#search-toggle span.nav-link');
+      if (searchSpan) {
+        searchSpan.childNodes.forEach(node => {
+          if (node.nodeType === 3 && node.textContent.includes('ctrl k')) {
+            node.textContent = 'Search ';
+          }
+        });
+      }
+    }, 100);
+  });
+</script>
