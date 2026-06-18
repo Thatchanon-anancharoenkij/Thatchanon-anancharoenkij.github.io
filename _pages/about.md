@@ -190,3 +190,16 @@ permalink: /
   }
 </style>
 
+<style>
+  .search-toggle {
+    font-size: 0 !important; 
+  }
+
+
+  .search-toggle::before {
+    content: "Search" !important;
+    font-size: 1rem !important; 
+    margin-right: 5px; 
+  }
+</style>
+
