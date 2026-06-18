@@ -6,7 +6,6 @@ permalink: /
 <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
 <style>
-  /* โครงสร้างเหมือนอาจารย์ แต่ปลดล็อกสีพื้นหลังและสีตัวหนังสือเพื่อให้ Dark Mode ทำงานได้ */
   .profile-wrapper { font-family: 'Poppins', sans-serif; font-weight: 300; line-height: 1.8; }
   .profile-wrapper h1 { font-family: 'Lora', serif; font-weight: 600; margin-top: 0; font-size: 2.5rem; margin-bottom: 1rem; }
   .profile-wrapper h2 { font-family: 'Lora', serif; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem; border-bottom: 1px solid var(--global-divider-color); padding-bottom: 8px; }
@@ -14,7 +13,6 @@ permalink: /
   .contact-links a { color: var(--global-text-color-light); text-decoration: none; margin-right: 20px; transition: color 0.2s ease-in-out; }
   .contact-links a:hover { color: var(--global-theme-color); }
 
-  /* Responsive profile layout (มุมมองมือถือเหมือนอาจารย์ 100%) */
   .responsive-profile-container { display: flex; flex-direction: column; align-items: center; gap: 2rem; margin-bottom: 2rem; }
   .profile-image-col { width: 100%; max-width: 250px; flex-shrink: 0; }
   .profile-image-col img { width: 100%; display: block; }
@@ -25,7 +23,6 @@ permalink: /
     .profile-image-col { margin-right: 40px; position: relative; left: -90px; }
   }
 
-  /* การจัดการเมนูส่วนเกินและปุ่ม ค้นหา */
   .navbar-nav .dropdown, 
   .navbar-nav .nav-item.dropdown,
   .navbar-nav li:has(a[href*="dropdown"]),
