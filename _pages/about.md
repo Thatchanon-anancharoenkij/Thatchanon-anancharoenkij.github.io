@@ -190,14 +190,3 @@ permalink: /
   }
 </style>
 
-<style>
-  body { background-color: #ffffff !important; color: #333333 !important; }
-  .profile-wrapper { font-family: 'Poppins', sans-serif; font-weight: 300; line-height: 1.8; }
-
-  .search-toggle, 
-  .toggle-container, 
-  #light-toggle, 
-  #search-toggle {
-    display: none !important;
-  }
-</style>
