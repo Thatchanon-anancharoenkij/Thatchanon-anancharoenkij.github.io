@@ -192,14 +192,21 @@ permalink: /
 
 <style>
   .search-toggle {
-    font-size: 0 !important; 
+    visibility: hidden;
+    position: relative;
+    width: 60px; /
   }
 
 
-  .search-toggle::before {
-    content: "Search" !important;
-    font-size: 1rem !important; 
-    margin-right: 5px; 
+  .search-toggle::after {
+    content: "Search";
+    visibility: visible;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1rem;
+    color: inherit;
+    cursor: pointer;
   }
 </style>
 
