@@ -5,6 +5,31 @@ title: CV
 nav: true
 nav_order: 5
 ---
+<style>
+  .navbar-nav .dropdown, 
+  .navbar-nav .nav-item.dropdown,
+  .navbar-nav li:has(a[href*="dropdown"]),
+  .navbar-nav li:has(a[class*="dropdown"]) { 
+    display: none !important; 
+  }
+
+  #search-toggle .nav-link {
+    font-size: 0 !important; 
+  }
+  
+  #search-toggle .nav-link::before {
+    content: "Search";
+    font-size: 1rem !important; 
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+
+  #search-toggle .nav-link i, 
+  #search-toggle .nav-link svg {
+    font-size: 1.2rem !important; 
+    vertical-align: middle;
+  }
+</style>
 
 <div style="text-align: center; margin-bottom: 30px;">
   <a href="{{ '/assets/pdf/cv.pdf' | relative_url }}" target="_blank" style="text-decoration: none; font-weight: 500; font-size: 1.1rem;">
