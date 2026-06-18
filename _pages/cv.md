@@ -1,9 +1,9 @@
 ---
 layout: page
-permalink: /cv/
 title: CV
+permalink: /cv/
 nav: true
-nav_order: 5
+nav_order: 2
 ---
 <style>
   .navbar-nav .dropdown, 
