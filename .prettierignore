@@ -15,3 +15,4 @@ _config.yml
 .github/workflows/deploy.yml
 _pages/about.md
 _layouts/bib.liquid
+*.md
