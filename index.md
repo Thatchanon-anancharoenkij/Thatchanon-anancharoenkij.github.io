@@ -74,7 +74,9 @@ permalink: /
   .toggle-container { display: none !important; }
 
   .navbar-nav .dropdown, 
-  .navbar-nav .nav-item.dropdown { 
+  .navbar-nav .nav-item.dropdown,
+  .navbar-nav li:has(a[href*="dropdown"]),
+  .navbar-nav li:has(a[class*="dropdown"]) { 
     display: none !important; 
   }
 
