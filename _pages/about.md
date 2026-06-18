@@ -190,23 +190,14 @@ permalink: /
   }
 </style>
 
-<style>
-  .search-toggle {
-    visibility: hidden;
-    position: relative;
-    width: 60px; /
-  }
-
-
-  .search-toggle::after {
-    content: "Search";
-    visibility: visible;
-    position: absolute;
-    left: 0;
-    top: 0;
-    font-size: 1rem;
-    color: inherit;
-    cursor: pointer;
-  }
-</style>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    setTimeout(function() {
+      const searchSpan = document.querySelector('#search-toggle span.nav-link');
+      if (searchSpan) {
+        searchSpan.innerHTML = 'Search'; 
+      }
+    }, 100);
+  });
+</script>
 
