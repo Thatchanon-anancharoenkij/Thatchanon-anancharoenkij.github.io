@@ -383,9 +383,13 @@ permalink: /
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     setTimeout(function() {
-      const searchSpan = document.querySelector('#search-toggle span.nav-link');
-      if (searchSpan) {
-        searchSpan.innerHTML = 'Search'; 
+      const searchBtn = document.querySelector('#search-toggle span.nav-link');
+      if (searchBtn) {
+        searchBtn.childNodes.forEach(node => {
+          if (node.nodeType === 3 && node.textContent.includes('ctrl k')) {
+            node.textContent = 'Search ';
+          }
+        });
       }
     }, 100);
   });
