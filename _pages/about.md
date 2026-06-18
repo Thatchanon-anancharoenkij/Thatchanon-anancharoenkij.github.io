@@ -110,7 +110,7 @@ permalink: /
     </div>
   </div>
 
-I am a Ph.D. student in applied statistics under the supervision of [Dr.Donlapark Ponnoprat](https://donlapark.pages.dev/) at Chiang Mai University. My research focuses on causal inference and statistical learning theory. I am currently focusing on theoretical causal inference. I do not limit my scope to pure theory, but I am deeply interested in applying these causal frameworks across various scientific fields.
+I am a Ph.D. student in applied statistics under the supervision of [Dr. Donlapark Ponnoprat](https://donlapark.pages.dev/) at Chiang Mai University. My research focuses on causal inference and statistical learning theory. I am currently focusing on theoretical causal inference. I do not limit my scope to pure theory, but I am deeply interested in applying these causal frameworks across various scientific fields.
 
   <h2>Education</h2>
 
