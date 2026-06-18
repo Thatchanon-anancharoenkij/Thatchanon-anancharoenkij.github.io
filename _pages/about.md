@@ -87,7 +87,7 @@ permalink: /
     .profile-image-col {
       margin-right: 40px;
       position: relative;
-      left: -20px;
+      left: -90px;
     }
   }
 </style>
