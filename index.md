@@ -73,13 +73,20 @@ permalink: /
 <style>
   .toggle-container { display: none !important; }
 
-  .navbar-nav .nav-item:has(a[href*="cv"]) {
-    display: block !important;
+  #search-toggle .nav-link {
+    font-size: 0 !important; 
+  }
+  
+  #search-toggle .nav-link::before {
+    content: "Search";
+    font-size: 1rem !important; 
+    margin-right: 5px;
+    vertical-align: middle;
   }
 
-  #search-toggle .nav-link {
-    display: flex !important;
-    align-items: center !important;
-    gap: 8px !important;
+  #search-toggle .nav-link i, 
+  #search-toggle .nav-link svg {
+    font-size: 1.2rem !important; 
+    vertical-align: middle;
   }
 </style>
