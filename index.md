@@ -74,19 +74,20 @@ permalink: /
   document.addEventListener("DOMContentLoaded", function() {
     document.querySelectorAll('.navbar-nav a').forEach(link => {
       if (link.textContent.trim().toLowerCase() === 'cv') {
-        link.closest('li').style.display = 'block';
+        link.closest('li').style.display = 'block'; 
       }
     });
 
+
     setTimeout(function() {
-      const searchSpan = document.querySelector('#search-toggle span.nav-link');
-      if (searchSpan) {
-        searchSpan.childNodes.forEach(node => {
+      const searchBtn = document.querySelector('#search-toggle span.nav-link');
+      if (searchBtn) {
+        searchBtn.childNodes.forEach(node => {
           if (node.nodeType === 3 && node.textContent.includes('ctrl k')) {
             node.textContent = 'Search ';
           }
         });
       }
-    }, 100);
+    }, 200); 
   });
 </script>
