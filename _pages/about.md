@@ -191,8 +191,20 @@ permalink: /
 </style>
 
 <style>
-  .toggle-container, 
-  .search-toggle {
+  body { background-color: #ffffff !important; color: #333333 !important; }
+  .profile-wrapper { font-family: 'Poppins', sans-serif; font-weight: 300; line-height: 1.8; }
+
+  .navbar .navbar-nav .nav-item, 
+  .navbar .search-toggle, 
+  .navbar .toggle-container,
+  #light-toggle,
+  .search-toggle,
+  .nav-link.search-toggle,
+  .nav-link.toggle-container {
+    display: none !important;
+  }
+
+  #search-toggle, #light-toggle {
     display: none !important;
   }
 </style>
