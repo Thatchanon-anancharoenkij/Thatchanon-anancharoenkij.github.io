@@ -73,6 +73,11 @@ permalink: /
 <style>
   .toggle-container { display: none !important; }
 
+  .navbar-nav .dropdown, 
+  .navbar-nav .nav-item.dropdown { 
+    display: none !important; 
+  }
+
   #search-toggle .nav-link {
     font-size: 0 !important; 
   }
