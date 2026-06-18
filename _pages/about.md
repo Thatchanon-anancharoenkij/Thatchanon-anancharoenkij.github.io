@@ -167,3 +167,15 @@ permalink: /
 
   </div>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll('.navbar-nav a').forEach(link => {
+      const text = link.textContent.trim().toLowerCase();
+      // ถ้าเจอคำว่า 'people' หรือ 'submenus' ให้ซ่อนทั้งลิสต์รายการ (li) ที่ครอบอยู่
+      if (text === 'people' || text === 'submenus') {
+        link.closest('li').style.display = 'none';
+      }
+    });
+  });
+</script>
