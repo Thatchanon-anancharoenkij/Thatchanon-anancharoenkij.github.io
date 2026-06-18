@@ -189,3 +189,10 @@ permalink: /
     display: none !important;
   }
 </style>
+
+<style>
+  .toggle-container, 
+  .search-toggle {
+    display: none !important;
+  }
+</style>
