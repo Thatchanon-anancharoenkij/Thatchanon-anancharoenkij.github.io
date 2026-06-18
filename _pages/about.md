@@ -16,6 +16,7 @@ permalink: /
     font-weight: 300;
     line-height: 1.8;
   }
+  
   .profile-wrapper h1 {
     font-family: 'Lora', serif; 
     font-weight: 600;
@@ -39,31 +40,67 @@ permalink: /
     font-weight: 500;
     color: #111;
   }
+  
   .contact-links a {
     color: #666;
     text-decoration: none;
     margin-right: 20px;
     transition: color 0.2s ease-in-out;
   }
+  
   .contact-links a:hover {
     color: #1a1a1a;
   }
+
+
+  .custom-flex-container {
+    display: flex; 
+    align-items: flex-start; 
+    margin-left: -50px; 
+  }
+
+  .custom-flex-img {
+    width: 250px; 
+    flex-shrink: 0; 
+    margin-right: 40px;
+  }
+
+  .custom-flex-text {
+    flex-grow: 1;
+  }
+
+
+  @media (max-width: 768px) {
+    .custom-flex-container {
+      margin-left: 0; 
+    }
+    .custom-flex-img {
+      width: 120px; 
+      margin-right: 15px; 
+    }
+    .profile-wrapper h1 {
+      font-size: 1.8rem; 
+    }
+    .contact-links a {
+      display: block; 
+      margin-bottom: 5px;
+    }
+  }
 </style>
 
-<div class="profile-wrapper" style="display: flex; align-items: flex-start; margin-left: -50px;">
+<div class="profile-wrapper custom-flex-container">
   
-  <div style="width: 250px; flex-shrink: 0; margin-right: 40px; position: relative; left: -90px;">
+  <div class="custom-flex-img">
     <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Profile Picture" style="width: 100%; display: block;">
   </div>
 
-  <div style="flex-grow: 1;" markdown="1">
-
+  <div class="custom-flex-text" markdown="1">
   <h1><b>Thatchanon</b> Anancharoenkij</h1>
   <p style="font-size: 0.95rem; color: #666; margin-bottom: 1rem; font-weight: 400;">Ph.D. Student in Applied Statistics | Researcher in Causal Inference and Statistical Learning Theory</p>
 
   <div class="contact-links" style="font-size: 0.9rem; margin-bottom: 1.5rem;">
-    <a href="mailto:thatchanon.anan@gmail.com"><i class="fas fa-envelope"></i> Thatchanon.anan@gmail.com</a>
-    <a href="mailto:thatchanon_ananch@cmu.ac.th"><i class="fas fa-envelope"></i> Thatchanon_ananch@cmu.ac.th</a><br>
+    <a href="mailto:Thatchanon.anan@gmail.com"><i class="fas fa-envelope"></i> Thatchanon.anan@gmail.com</a>
+    <a href="mailto:Thatchanon_ananch@cmu.ac.th"><i class="fas fa-envelope"></i> Thatchanon_ananch@cmu.ac.th</a><br>
     
     <div style="margin-top: 5px;">
       <a href="https://github.com/Thatchanon-anancharoenkij" target="_blank"><i class="fab fa-github"></i> GitHub</a>
@@ -73,7 +110,7 @@ permalink: /
     </div>
   </div>
 
-I am a Ph.D. student in applied statistics at Chiang Mai University. My research focuses on causal inference and statistical learning theory. I am currently focusing on theoretical causal inference. I do not limit my scope to pure theory, but I am deeply interested in applying these causal frameworks across various scientific fields.
+I am a Ph.D. student in applied statistics under the supervision of [Dr.Donlapark Ponnoprat](https://donlapark.pages.dev/) at Chiang Mai University. My research focuses on causal inference and statistical learning theory. I am currently focusing on theoretical causal inference. I do not limit my scope to pure theory, but I am deeply interested in applying these causal frameworks across various scientific fields.
 
   <h2>Education</h2>
 
@@ -89,7 +126,7 @@ I am a Ph.D. student in applied statistics at Chiang Mai University. My research
   **Bachelor of Economics (Statistics and Econometrics)** | 2013 – 2016  
   *Chiang Mai University, Chiang Mai, Thailand*
 
- <h2>Publications and Preprints</h2>
+  <h2>Publications and Preprints</h2>
 
 <div style="margin-bottom: 25px;">
   <div style="font-weight: bold;">Conditional Counterfactual Mean Embeddings: Doubly Robust Estimation and Learning Rates</div>
@@ -107,7 +144,7 @@ I am a Ph.D. student in applied statistics at Chiang Mai University. My research
   <div style="font-style: italic;">Poverty Reduction for Inclusive Sustainable Growth in Developing Asia, pp. 185-209, Springer, Cham, 2021</div>
 </div>
 
-<h2>Academic Experience</h2>
+  <h2>Academic Experience</h2>
 
   **Chiang Mai University** | 2024 – Present  
   *Graduate Teaching Assistant*  
