@@ -52,55 +52,73 @@ permalink: /
     color: #1a1a1a;
   }
 
-
-  .custom-flex-container {
+  /* --- จัดการ Layout สำหรับหน้าจอคอมพิวเตอร์ (PC) --- */
+  .profile-flex-container {
     display: flex; 
     align-items: flex-start; 
-    margin-left: -50px; 
+    margin-left: -50px; /* ดึงทั้งก้อนไปทางซ้าย */
   }
-
-  .custom-flex-img {
+  
+  .profile-pic-container {
     width: 250px; 
     flex-shrink: 0; 
-    margin-right: 40px;
+    margin-right: 40px; 
+    position: relative; 
+    left: -90px; /* ดึงเฉพาะรูปไปทางซ้ายอีก */
   }
-
-  .custom-flex-text {
+  
+  .profile-content-container {
     flex-grow: 1;
   }
 
-
-  @media (max-width: 768px) {
-    .custom-flex-container {
-      margin-left: 0; 
+  /* --- จัดการ Layout สำหรับ iPad (หน้าจอขนาดกลาง) --- */
+  @media (max-width: 1024px) {
+    .profile-flex-container {
+      margin-left: 0; /* เลิกดึงซ้าย ป้องกันตกขอบ */
     }
-    .custom-flex-img {
-      width: 120px; 
-      margin-right: 15px; 
+    .profile-pic-container {
+      left: 0; /* เลิกดึงรูป ป้องกันตกขอบ */
+      width: 200px; /* ย่อรูปลงนิดหน่อย แต่ยังอยู่ซ้ายเหมือนเดิม */
+      margin-right: 25px;
+    }
+  }
+
+  /* --- จัดการ Layout สำหรับมือถือ (หน้าจอขนาดเล็ก) --- */
+  @media (max-width: 768px) {
+    .profile-flex-container {
+      margin-left: 0;
+    }
+    .profile-pic-container {
+      left: 0;
+      width: 120px; /* ย่อรูปให้พอดีจอมือถือ และยังอยู่ซ้ายเสมอ */
+      margin-right: 15px;
     }
     .profile-wrapper h1 {
-      font-size: 1.8rem; 
+      font-size: 1.8rem; /* ย่อขนาดตัวหนังสือชื่อลง */
     }
     .contact-links a {
-      display: block; 
+      display: block; /* ให้ลิงก์เรียงลงมาเป็นบรรทัดๆ จะได้กดง่ายในมือถือ */
       margin-bottom: 5px;
     }
   }
 </style>
 
-<div class="profile-wrapper custom-flex-container">
+<div class="profile-wrapper profile-flex-container">
   
-  <div class="custom-flex-img">
+  <!-- ส่วนของรูปภาพ -->
+  <div class="profile-pic-container">
     <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Profile Picture" style="width: 100%; display: block;">
   </div>
 
-  <div class="custom-flex-text" markdown="1">
+  <!-- ส่วนของเนื้อหา -->
+  <div class="profile-content-container" markdown="1">
+
   <h1><b>Thatchanon</b> Anancharoenkij</h1>
   <p style="font-size: 0.95rem; color: #666; margin-bottom: 1rem; font-weight: 400;">Ph.D. Student in Applied Statistics | Researcher in Causal Inference and Statistical Learning Theory</p>
 
   <div class="contact-links" style="font-size: 0.9rem; margin-bottom: 1.5rem;">
-    <a href="mailto:Thatchanon.anan@gmail.com"><i class="fas fa-envelope"></i> Thatchanon.anan@gmail.com</a>
-    <a href="mailto:Thatchanon_ananch@cmu.ac.th"><i class="fas fa-envelope"></i> Thatchanon_ananch@cmu.ac.th</a><br>
+    <a href="mailto:thatchanon.anan@gmail.com"><i class="fas fa-envelope"></i> Thatchanon.anan@gmail.com</a>
+    <a href="mailto:thatchanon_ananch@cmu.ac.th"><i class="fas fa-envelope"></i> Thatchanon_ananch@cmu.ac.th</a><br>
     
     <div style="margin-top: 5px;">
       <a href="https://github.com/Thatchanon-anancharoenkij" target="_blank"><i class="fab fa-github"></i> GitHub</a>
@@ -127,7 +145,7 @@ I am a Ph.D. student in applied statistics under the supervision of [Dr. Donlapa
   *Chiang Mai University, Chiang Mai, Thailand*
 
   <h2>Publications and Preprints</h2>
-
+  
 <div style="margin-bottom: 25px;">
   <div style="font-weight: bold;">Conditional Counterfactual Mean Embeddings: Doubly Robust Estimation and Learning Rates</div>
   <div style="margin-bottom: 5px;">
