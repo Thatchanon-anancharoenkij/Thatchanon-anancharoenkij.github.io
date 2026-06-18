@@ -64,20 +64,25 @@ permalink: /
     </div>
 <h2>Academic Experience</h2>
     <p><strong>Chiang Mai University</strong> | 2024 – Present<br>
-    <em>Graduate Teaching Assistant</em></p>
-    
+      <em>Graduate Teaching Assistant</em>
+    </p>
+
     <p><strong>Graduate Courses:</strong><br>
-    Statistical Theory 1, Statistics for Data Science</p>
-    
+      Statistical Theory 1, Statistics for Data Science
+    </p>
+
     <p><strong>Undergraduate Courses:</strong><br>
-    Statistical Learning for Data Science 1, Statistical Learning for Data Science 2, Optimization for Statistical Learning</p>
+      Statistical Learning for Data Science 1, Statistical Learning for Data Science 2, Optimization for Statistical Learning
+    </p>
 
     <h2>Awards & Scholarships</h2>
     <p><strong>Graduate Teaching and Research Assistantship</strong> | 2024 – Present<br>
-    <em>Chiang Mai University, Thailand</em></p>
-    
+      <em>Chiang Mai University, Thailand</em>
+    </p>
+
     <p><strong>Graduate Teaching and Research Assistantship</strong> | 2017 – 2022<br>
-    <em>Chiang Mai University, Thailand</em></p>
+      <em>Chiang Mai University, Thailand</em>
+    </p>
   </div>
 </div>
 
