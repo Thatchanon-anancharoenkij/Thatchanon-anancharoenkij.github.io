@@ -63,24 +63,23 @@ permalink: /
       <div style="font-style: italic;">Poverty Reduction for Inclusive Sustainable Growth in Developing Asia, pp. 185-209, Springer, Cham, 2021</div>
     </div>
 <h2>Academic Experience</h2>
+
     <p><strong>Chiang Mai University</strong> | 2024 – Present<br>
-      <em>Graduate Teaching Assistant</em>
-    </p>
+  <em>Graduate Teaching Assistant</em><br>
+  <strong>Graduate Courses:</strong> Statistical Theory 1, Statistics for Data Science<br>
+  <strong>Undergraduate Courses:</strong> Statistical Learning for Data Science 1, Statistical Learning for Data Science 2, Optimization for Statistical Learning</p>
 
-    <p><strong>Graduate Courses:</strong> Statistical Theory 1, Statistics for Data Science</p>
+    <h2>Awards &amp; Scholarships</h2>
 
-    <p><strong>Undergraduate Courses:</strong> Statistical Learning for Data Science 1, Statistical Learning for Data Science 2, Optimization for Statistical Learning</p>
-
-    <h2>Awards & Scholarships</h2>
     <p><strong>Graduate Teaching and Research Assistantship</strong> | 2024 – Present<br>
-      <em>Chiang Mai University, Thailand</em>
-    </p>
+  <em>Chiang Mai University, Thailand</em></p>
 
     <p><strong>Graduate Teaching and Research Assistantship</strong> | 2017 – 2022<br>
-      <em>Chiang Mai University, Thailand</em>
-    </p>
+  <em>Chiang Mai University, Thailand</em></p>
+
   </div>
 </div>
+
 
 <style>
   .toggle-container { display: none !important; }
