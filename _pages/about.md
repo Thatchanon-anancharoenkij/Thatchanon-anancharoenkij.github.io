@@ -181,13 +181,11 @@ permalink: /
 </script>
 
 
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    // เปลี่ยนคำว่า "ctrl k" เป็นชื่อที่คุณต้องการ
-    document.querySelectorAll('*').forEach(el => {
-      if (el.childNodes.length > 0 && el.childNodes[0].nodeType === 3 && el.textContent.trim() === 'ctrl k') {
-        el.textContent = 'Search'; // <--- เปลี่ยนคำว่า 'Search' เป็นชื่อที่คุณต้องการตรงนี้ครับ
-      }
-    });
-  });
-</script>
+<style>
+  body { background-color: #ffffff !important; color: #333333 !important; }
+  .profile-wrapper { font-family: 'Poppins', sans-serif; font-weight: 300; line-height: 1.8; }
+
+  .search-toggle, .toggle-container {
+    display: none !important;
+  }
+</style>
